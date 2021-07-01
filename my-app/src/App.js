@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-//import { Movie} from '.Movie';
+import {Movie} from './Movie.js';
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Movie/>
     </div>
    
   );
